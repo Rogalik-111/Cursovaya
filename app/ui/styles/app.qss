@@ -1,0 +1,99 @@
+QWidget {
+    font-family: "Segoe UI", "Arial";
+    font-size: 14px;
+    color: #1b2430;
+}
+
+QMainWindow, QWidget#root {
+    background-color: #eef3f8;
+}
+
+QFrame#card {
+    background-color: #ffffff;
+    border: 1px solid #d5deea;
+    border-radius: 12px;
+}
+
+QLabel#title {
+    font-size: 22px;
+    font-weight: 600;
+    color: #10243d;
+}
+
+QLabel#subtitle {
+    color: #5b6b7c;
+}
+
+QLabel#fieldLabel {
+    font-weight: 600;
+    color: #2c3a4a;
+}
+
+QLineEdit {
+    background-color: #f7fafc;
+    border: 1px solid #c9d4e3;
+    border-radius: 8px;
+    padding: 8px 10px;
+    min-height: 22px;
+}
+
+QLineEdit:focus {
+    border: 1px solid #1f6feb;
+    background-color: #ffffff;
+}
+
+QPushButton {
+    border-radius: 8px;
+    padding: 8px 16px;
+    min-height: 32px;
+}
+
+QPushButton#primary {
+    background-color: #1f6feb;
+    color: #ffffff;
+    font-weight: 600;
+    border: none;
+}
+
+QPushButton#primary:hover {
+    background-color: #185dcc;
+}
+
+QPushButton#primary:pressed {
+    background-color: #144ea8;
+}
+
+QPushButton#link {
+    background-color: transparent;
+    color: #1f6feb;
+    border: none;
+    text-align: left;
+}
+
+QPushButton#link:hover {
+    color: #144ea8;
+}
+
+QPushButton#secondary {
+    background-color: #ffffff;
+    border: 1px solid #c9d4e3;
+    color: #1b2430;
+}
+
+QPushButton#secondary:hover {
+    background-color: #f3f7fb;
+}
+
+QLabel#badge {
+    background-color: #e7f1ff;
+    color: #144ea8;
+    border-radius: 8px;
+    padding: 4px 10px;
+    font-weight: 600;
+}
+
+QFrame#placeholder {
+    background-color: #f7fafc;
+    border: 1px dashed #c9d4e3;
+    border-radius: 10px;
+}

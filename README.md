@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# sportstat
-
 Десктопная ИС учёта статистики спортсменов (каркас + заглушки).
 
 ## Быстрый запуск
@@ -10,8 +7,3 @@
 3. Создайте БД (команды — в `docs/INSTRUCTION.md`).
 4. `python -m app.db.init_db`
 5. `python main.py`
-
-Подробности: `docs/INSTRUCTION.md`.
-=======
-# -
->>>>>>> 6c2d68598d5d49db667af41c00ab1895ade20c21
